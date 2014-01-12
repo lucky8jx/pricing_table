@@ -1,6 +1,6 @@
 Pricing Table
 ================================
-This is an exercise for me when I was working in FuZhuo.
+This was an exercise for me when I was working in FuZhuo.
 
 The main job I had done was converting a psd of pricing table to an conponent that can be used in a web page when we need it. 
 
