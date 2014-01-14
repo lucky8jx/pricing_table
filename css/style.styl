@@ -1,0 +1,103 @@
+/**************************************
+*	main style
+************************************/
+//================================
+// Basic style
+//====================
+body
+	width 100%
+	margin 50px auto
+	padding 0
+	font-family Arial, Sans-serif
+
+//==================================
+// style of header
+//=================================
+
+//======================================
+// style of main
+//====================================
+.container
+	width 50%
+	margin 0 auto
+.pri-table
+	position relative
+	z-index 2
+	width 100%
+	margin 0
+	padding 0
+	list-style none
+
+.item
+	position relative
+	display inline-block
+	*float left
+	width 19%
+	margin 0
+	padding 0
+	text-align center
+	border 1px solid rgb(211, 211, 211)
+	background-color rgb(253, 252, 250)
+	transition all 200ms ease-in 0s
+	&:hover
+		left 2%
+		width 23%
+		margin 0 -2%
+
+	> h1
+		display inline-block
+		width 100%
+		margin 0
+		padding 20px 0
+		font-size 22px
+		color rgb(68, 68, 68);
+		border-bottom 1px solid rgb(239, 239, 237)
+	> .btn
+		margin 0
+		padding 0
+		border-top 1px solid rgb(239, 239, 237)
+		background-color rgb(250, 249, 247)
+		> a
+			display inline-block
+			margin 12px 0
+			padding 12px 32px
+			font-size 14px
+			font-style italic
+			color rgb(37, 37, 37)
+			border 1px solid rgba(200, 200, 200, 0.5)
+
+.item-price
+	width 100%
+	margin 0
+	padding 10px 0
+	font-size 14px
+	font-style italic
+	color rgb(136, 136, 136)
+	border-bottom 1px solid rgb(239, 239, 237)
+	background-color rgb(251, 250, 248)
+
+.item-desc
+	margin 0
+	padding 20px;
+	font-size 12px
+	color rgb(68, 68, 68)
+
+.item-spec
+	width 80%
+	margin 0 auto 30px
+	padding 0
+	font-size 12px
+	color rgb(133, 132, 131)
+	list-style none
+	> li
+		margin 0
+		padding 10px 0
+		border-bottom 1px dashed rgb(222, 221, 220)
+		&:first-child
+			border-top 1px dashed rgb(222, 221, 220)
+
+
+
+//=================================
+// style of footer
+//========================
