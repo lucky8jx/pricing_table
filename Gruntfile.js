@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 					}
 				},
 				files: {
-					"./pricing_table.html": ["./index.jade"]
+					"./index.html": ["./index.jade"]
 				}
 			}
 		},
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 					banner: '/*<%= grunt.template.today("yyyy-mm-dd") %>*/\n'
 				},
 				files: {
-					"css/index.css": ['css/style.styl']
+					"css/style.css": ['css/style.styl']
 				}
 			}
 		}
