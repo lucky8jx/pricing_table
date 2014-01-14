@@ -2,5 +2,10 @@
 	"name": "Pricing-table",
 	"version": "0.0.1",
 	"author": "lucky8jx",
-	"private": "true"
+	"private": "true",
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-jade": "*",
+		"grunt-contrib-stylus": "*"
+	}
 }
